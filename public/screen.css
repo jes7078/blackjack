@@ -9,4 +9,165 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url('/images/BJ_background.jpeg');
+}
+
+main {
+  margin: 0;
+  height: 100%;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.shuffle-up-and-deal-parent {
+  display: flex;
+}
+
+.shuffle-up-and-deal {
+  margin: auto;
+  font-size: 3rem;
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.player-hand li {
+  font-size: 3rem;
+}
+
+.player-sum {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.player1-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dealer-hand li {
+  font-size: 3rem;
+}
+
+.dealer-sum {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dealer1-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.player1-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 450px;
+  margin-bottom: 0.5rem;
+}
+.hit-button {
+  margin: auto;
+  font-size: 4rem;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.stay-button {
+  margin: auto;
+  font-size: 4rem;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.play-again-parent {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 450px;
+  margin-bottom: 0.5rem;
+}
+
+.play-again {
+  margin: auto;
+  font-size: 4rem;
+  border: 1px solid black;
+  width: 425px;
+}
+
+.busted {
+  color: red;
+}
+
+.winner {
+  color: white;
+}
+
+.house-wins {
+  color: red;
+}
+
+.draw {
+  color: white;
+}
+
+#dealer-image {
+  width: 1250px;
+  border: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  height: 350px;
+}
+
+#player-image {
+  width: 1250px;
+  border: 2px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  height: 350px;
+  margin-bottom: 0.5rem;
+}
+
+#dealer-image img {
+  height: 350px;
+  width: 250px;
+}
+
+#player-image img {
+  height: 350px;
+  width: 250px;
+}
+.dealer1 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin-bottom: 3.5rem;
+}
+
+.dealer-pics {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.player-pics {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.final-message {
+  font-size: 5rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }

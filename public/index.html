@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blackjack</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <main>
+      <h1>BLACK JACK</h1>
+
+      <section class="dealer1">
+        <h2 class="dealer1-title">Dealer Hand</h2>
+        <h3 class="dealer-sum"></h3>
+        <section class="dealer-pics">
+          <!--<ul class="dealer-hand"></ul>-->
+
+          <section id="dealer-image"></section>
+        </section>
+      </section>
+
+      <section class="final-message-container">
+        <h1 class="final-message"></h1>
+      </section>
+
+      <section class="player1">
+        <h2 class="player1-title">Player Hand</h2>
+        <h3 class="player-sum"></h3>
+        <!-- <ul class="player-hand"></ul> -->
+        <section class="player-pics">
+          <section id="player-image"></section>
+        </section>
+      </section>
+      <section class="player1-buttons">
+        <button class="hit-button">Hit</button>
+        <button class="stay-button">Stay</button>
+      </section>
+      <section class="shuffle-up-and-deal-parent">
+        <button class="shuffle-up-and-deal">Shuffle Up and Deal</button>
+      </section>
+      <section class="play-again-parent">
+        <button class="play-again">Play Again</button>
+      </section>
+    </main>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
